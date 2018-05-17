@@ -1,9 +1,9 @@
 package io.pivotal.pal.tracker.backlog;
 
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.web.client.RestOperations;
 
 public class ProjectClient {
-
     private final RestOperations restOperations;
     private final String endpoint;
 
